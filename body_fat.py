@@ -68,7 +68,7 @@ Each row in the dataset represents an individual with various measurements and c
 
 These data are used to produce the predictive equations for lean body weight given in the abstract "Generalized body composition prediction equation for men using simple measurement techniques", K.W. Penrose, A.G. Nelson, A.G. Fisher, FACSM, Human Performance Research Center, Brigham Young University, Provo, Utah 84602 as listed in Medicine and Science in Sports and Exercise, vol. 17, no. 2, April 1985, p. 189.
 """
-
+import pandas as pd
 df = pd.read_csv("../input/body-fat-prediction-dataset/bodyfat.csv")
 
 """### <b> <span style='color:RED'></span> Importing the Dataset"""
